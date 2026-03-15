@@ -1,0 +1,124 @@
+/* =============================================
+   CUSTOMIZATION #1: Custom Font (Google Fonts)
+   ============================================= */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* =============================================
+   CUSTOMIZATION #2: Cohesive Color Scheme
+   ============================================= */
+:root {
+  --primary:   #2c3e50;   /* dark navy   */
+  --accent:    #3498db;   /* blue        */
+  --bg:        #f5f7fa;   /* light grey  */
+  --text:      #333333;
+  --white:     #ffffff;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =============================================
+   CUSTOMIZATION #3: Custom Margins, Padding & Layout
+   ============================================= */
+header {
+  background-color: var(--primary);
+  padding: 16px 40px;
+}
+
+nav a {
+  color: var(--white);
+  margin-right: 24px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.7rem;
+  color: var(--primary);
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto 28px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.intro {
+  margin-bottom: 36px;
+}
+
+.contact {
+  background-color: var(--white);
+  border-left: 4px solid var(--accent);
+  padding: 20px 28px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact ul li {
+  margin: 8px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin: 6px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: 14px;
+}
